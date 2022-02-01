@@ -20,11 +20,13 @@ class Chat extends Component {
         this.setState({isShow:false})
     }
     componentDidUpdate() {
+        let chatList = document.querySelector('.chatbody')
+        if (!chatList){
+            return null
+        }
         if (this.state.isShow) {
-            let chatList = document.querySelector('.chatbody')
             chatList.className='chatbody showEmoji'
         }else {
-            let chatList = document.querySelector('.chatbody')
             chatList.className='chatbody'
         }
         window.scrollTo(0, document.body.scrollHeight)
@@ -79,7 +81,7 @@ class Chat extends Component {
                      if (msg.from === friendId){
                         return (
                             <List.Item
-                                key={msg._id}
+                                key={nanoid()}
                                 prefix={
                                     <Image
                                     src={icon}
@@ -94,7 +96,7 @@ class Chat extends Component {
                         )
                      }else {
                         return (<List.Item className='myMsg'
-                            key={msg._id}
+                            key={nanoid()}
                             extra='Me' 
                             >
                             {msg.content}
