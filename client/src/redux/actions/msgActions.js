@@ -15,7 +15,7 @@ function initIO(dispatch, userid) {
   }
 
   io[socketSymbol].on("receiveMsg", function (data) {
-    console.log("浏览器端接收到消息:", data);
+    console.log("browser receives msg:", data);
     if (data.from === userid || data.to === userid) {
       dispatch(msgAction(data, userid))
     }
@@ -34,7 +34,7 @@ export const sendMsgAsyncAction = ({ from, to, content }) => {
   return (dispatch) => {
     
     io[socketSymbol].emit("sendMsg", { from, to, content });
-    console.log("浏览器端向服务器发送消息:", { from, to, content });
+    console.log("browser send msg to server:", { from, to, content });
   };
 };
 
