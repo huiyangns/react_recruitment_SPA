@@ -44,9 +44,6 @@ A --> D(Main page: main.jsx)
     	O[Chat] --> O2[chat.jsx]
     
     
-
-    
-
 ```
 
 # How to launch it
@@ -61,12 +58,11 @@ Client: npm start
 
 [1、Register](#1Register)<br/>
 [2、Login](#2Login)<br/>
-[3、Update user info](#3Update user info)<br/>
-[4、Get current user by using cookie](#4Get current user by using cookie)<br/>
-[5、Get user list](#5Get user list)<br/>
-[6、Get chat list of current user](#6Get chat list of current user)<br/>
-[7、 Set message read](#7Set message read)<br/>
-
+[3、Update user info](#3Update_user_info)<br/>
+[4、Get current user by using cookie](#4Get_current_user_by_using_cookie)<br/>
+[5、Get user list](#5Get_user_list)<br/>
+[6、Get chat list of current user](#6Get_chat_list_of_current_user)<br/>
+[7、Set message read](#7Set_message_read)<br/>
 
 ## 1、Register
 
@@ -137,7 +133,7 @@ Client: npm start
 	      "msg": "Username or password wrong"
 	    }
 
-## 3、Update user info
+## 3、Update_user_info
 
 ### Request URL：
 
@@ -179,7 +175,7 @@ Client: npm start
 	    }
 
 
-## 4、Get current user by using cookie
+## 4、Get_current_user_by_using_cookie
 
 ### Request URL：
 
@@ -217,7 +213,7 @@ Client: npm start
 	    }
 
 
-## 5、Get user list
+## 5、Get_user_list
 
 ### Request URL：
 
@@ -256,7 +252,7 @@ Client: npm start
 	}
 
 
-## 6、Get chat list of current user
+## 6、Get_chat_list_of_current_user
 
 ### Request URL：
 
@@ -309,7 +305,7 @@ Client: npm start
 	    }
 	}
 
-## 7、 Set message read
+## 7、Set_message_read
 
 ### Request URL：
 
