@@ -95,7 +95,7 @@ Client: npm start
 	Failure
 	    {
 	      "code": 1,
-	      "msg": "此用户已存在"
+	      "msg": "User exists"
 	    }
 
 
@@ -187,7 +187,7 @@ Client: npm start
 
 ### Params type
 
-	无
+	NULL
 
 ### Response：
 
