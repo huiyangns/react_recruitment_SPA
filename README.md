@@ -1,11 +1,11 @@
 # Project Info
 
-This project is a recruitment mobile SPA with a front and back end separation, including front-end and back-end applications.
+This project is a recruitment mobile SPA with a front and back end separation, including front-end and back-end applications.<br/>
 Including user registration/login, genius/boss list, real-time chat and other modules.
 
 # Tech
 
-Front end tech: Including React + ES6 + Webpack + Ant Design Mobile 
+Front end tech: Including React tech stack + ES6 + Webpack + Ant Design Mobile <br/>
 Back end tech: Including Node + express + mongodb + socketIO 
 
 # Front End Route
@@ -95,7 +95,7 @@ Client: npm start
 	Failure
 	    {
 	      "code": 1,
-	      "msg": "此用户已存在"
+	      "msg": "User exists"
 	    }
 
 
@@ -187,7 +187,7 @@ Client: npm start
 
 ### Params type
 
-	无
+	NULL
 
 ### Response：
 
